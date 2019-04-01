@@ -1,0 +1,7 @@
+﻿@model List<DBA.Models.CarViewModel>
+@{
+    ViewData["Title"] = "Biler til salg";
+}
+<h1>@ViewData["Title"]</h1>
+
+@await Component.InvokeAsync("CarList")
