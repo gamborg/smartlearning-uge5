@@ -8,7 +8,7 @@ namespace DBA.ViewComponents
     public class CarList : ViewComponent
     {
         private readonly ICarService _carService;
-        public CarListViewComponent(ICarService carService) 
+        public CarList(ICarService carService) 
         {
             _carService = carService;
         }
